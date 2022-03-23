@@ -1,7 +1,7 @@
 import React from 'react'
 import './Nav.css'
-// import {ALIOutLineHome} from 'react-icon/ai'
-// import {ALIOutLineUser} from 'react-icon/ai'
+// import {AliOutLineHome} from 'react-icon/ai'
+// import {AliOutLineUser} from 'react-icon/ai'
 // import {BiBook} from 'react-icon/bi'
 // import {RiServiceLine} from 'react-icon/ri'
 // import {BiMessageSquareDetail} from 'react-icon/bi'
@@ -11,15 +11,15 @@ const Nav = () => {
     // const [activeNav, setActiveNav] = useState('#')
     return (
         <nav>
-            {/* <a href='#' onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}
-            ><ALIOutLineHome/></a> */}
-            {/* <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ?
-             'active' : ''}><ALIOutLineUser/></a> */}
-            {/* <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ?
+            {/* <a href='#' onClick={() => setActiveNav('#')} className={  activeNav === '#' ? 'active' : ''}
+            ><AliOutLineHome/></a> */}
+            {/* <a href='#About' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ?
+            'active' : ''}><AliOutLineUser/></a> */}
+            {/* <a href='#Experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ?
              'active' : ''}><BiBook/></a> */}
-            {/* <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ?
+            {/* <a href='#Contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ?
              'active' : ''}><RiServiceLine/></a> */}
-            {/* <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav === '#services' ?
+            {/* <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav === '#Services' ?
              'active' : ''}><BiMessageSquareDetail/></a> */}
         </nav>
     )

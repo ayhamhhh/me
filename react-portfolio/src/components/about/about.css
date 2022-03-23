@@ -10,7 +10,7 @@
     border-radius: 2rem;
     background: linear-gradient(45deg,
             transparent,
-            var(--color--primary),
+            var(--color-primary),
             transparent);
     display: grid;
     place-items: center;
@@ -34,7 +34,7 @@
 }
 
 .about__card {
-    background: var(--color--bg--variant);
+    background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
@@ -44,12 +44,12 @@
 
 .about__card:hover {
     background-color: transparent;
-    border-color: var(--color--primary-variant);
+    border-color: var(--color-primary-variant);
     cursor: default;
 }
 
 .about__icon {
-    color: var(--color--primary);
+    color: var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
@@ -60,12 +60,12 @@
 
 .about__card small {
     font-size: 0.7rem;
-    color: var(--color--light);
+    color: var(--color-light);
 }
 
 .about__content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color--light);
+    color: var(--color-light);
 }
 
 /* ====================MEDIA QUERIES (MEDIUM DEVICES) ==================*/
