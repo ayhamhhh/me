@@ -1,5 +1,6 @@
 import React from 'react'
 import './Experience.css'
+import {BsPatchCheck} from 'react-icons/bs'
 
 const Experience = () => {
   return (
@@ -12,27 +13,27 @@ const Experience = () => {
           <h3>frontend development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              {/* <BsPatchCheck /> */}
+              <BsPatchCheck />
               <h4>HTML</h4>
               <small className='text-light'>Experience</small>
             </article>
             <article className="experience__details">
-              {/* <BsPatchCheck /> */}
+              <BsPatchCheck />
               <h4>css</h4>
               <small className='text-light'>Experience</small>
             </article>
             <article className="experience__details">
-              {/* <BsPatchCheck /> */}
+              <BsPatchCheck />
               <h4>javascript</h4>
               <small className='text-light'>Experience</small>
             </article>
             <article className="experience__details">
-              {/* <BsPatchCheckFill /> */}
+              <BsPatchCheck />
               <h4>bootstrap</h4>
               <small className='text-light'>Experience</small>
             </article>
             <article className="experience__details">
-              {/* <BsPatchCheckFill /> */}
+              <BsPatchCheck />
               <h4>tawilwind</h4>
               <small className='text-light'>Experience</small>
             </article>

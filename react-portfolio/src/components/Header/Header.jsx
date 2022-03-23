@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.css'
 import CTA from './CTA'
 import me from '../../assets/me.jpg'
-import HeaderSocial from '../Header/HeaderSocial'
+import HeaderSocial from "../Header/HeaderSocial"
 const Header = () => {
   return (
     <header>
@@ -11,9 +11,10 @@ const Header = () => {
         <h1>hakka biting</h1>
         <h5 className="text-light">Fullstack Developer</h5>
         <CTA />
+        <HeaderSocial/>
 
         <div className="me">
-          <img src="../../assets/me.jpg" alt="me" />
+          <img src={me} alt="me" />
         </div>
 
         <a href="#contact" className="scroll__down">scroll down</a>
