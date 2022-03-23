@@ -1,5 +1,5 @@
 import React from 'react'
-import './nav.css'
+import './Nav.css'
 // import {ALIOutLineHome} from 'react-icon/ai'
 // import {ALIOutLineUser} from 'react-icon/ai'
 // import {BiBook} from 'react-icon/bi'
@@ -7,7 +7,7 @@ import './nav.css'
 // import {BiMessageSquareDetail} from 'react-icon/bi'
 // import {useState} from 'react'
 
-const nav = () => {
+const Nav = () => {
     // const [activeNav, setActiveNav] = useState('#')
     return (
         <nav>
@@ -25,4 +25,4 @@ const nav = () => {
     )
 }
 
-export default nav
+export default Nav

@@ -1,5 +1,5 @@
 import React from 'react'
-import './about.css'
+import './About.css'
 // import me from '../../assets/me.jpg'
 // import { FaAward } from 'react-icons/fa'
 // import {FiUsers} from 'react-icons/fi'

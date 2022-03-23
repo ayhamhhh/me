@@ -1,9 +1,9 @@
 import React from 'react'
-import './testimonials.css'
-const testimonials = () => {
+import './Testimonials.css'
+const Testimonials = () => {
     return (
-        <section id='testimonials'>testimonials</section>
+        <section id='testimonials'>Testimonials</section>
     )
 }
 
-export default testimonials
+export default Testimonials
