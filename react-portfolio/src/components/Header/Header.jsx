@@ -9,14 +9,14 @@ const Header = () => {
       <div className="container header__container">
         <h5>Helle im</h5>
         <h1>hakka biting</h1>
-        <h5 ClassName="text-light">Fullstack Developer</h5>
+        <h5 className="text-light">Fullstack Developer</h5>
         <CTA />
 
         <div className="me">
           <img src="../../assets/me.jpg" alt="me" />
         </div>
 
-        <a href="#contact" classame="scroll__down">scroll down</a>
+        <a href="#contact" className="scroll__down">scroll down</a>
       </div>
     </header>
   )
