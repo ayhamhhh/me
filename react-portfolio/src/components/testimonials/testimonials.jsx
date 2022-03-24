@@ -7,12 +7,10 @@ import AVTR4 from '../../assets/2.jpeg'
 
 import { Pagination } from 'swiper';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-
+import 'swiper/swiper.min.css';
 
 
 const data = [
