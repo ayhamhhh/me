@@ -68,7 +68,7 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheck />
+              <BsPatchCheck className='experience__details-icon' />
               <div>
                 <h4>nodo</h4>
                 <small className='text-light'>mongo</small>
